@@ -11,6 +11,6 @@ public class HomeController {
 	
 	@GetMapping("/start")
 	public String display() { // this method return the string statement
-		return "Home.html";	// using this sentence the html file will call 
+		return "Home.html";	// using this line the html file will call 
 	}
 }
